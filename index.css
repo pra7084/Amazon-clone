@@ -1,0 +1,213 @@
+* {
+  /* CSS properties here will apply to all elements on the page */
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* Other CSS properties */
+}
+
+.default{
+    display:flex;
+    color:#fafafa;
+    height:70px;
+    width:100%;
+    justify-content: space-around;
+    background-color: rgb(32, 31, 31); 
+}
+.hovering{
+   padding:6px;
+}
+.hovering:hover{
+  border:1px solid white;
+}
+.inside{
+   align-self: center;
+}
+button{
+  background-color: rgb(128, 212, 201);
+  object-fit: cover;
+}
+.fa-magnifying-glass{
+  font-size:30px;
+}
+form{
+     width: 500px;
+     border-width: 10px;
+     background-color: white;
+     border-radius: 5px;
+}
+form input[type="text"]{
+    width: 93%; /* Set the width of the text input to 100% to fill the container */
+    height:20px;
+    font-size:25px;
+    padding-bottom: 5px;;
+    border:none;
+}
+/* i{
+  margin:0px;
+  padding:0px;
+} */
+.help{
+  color:white;
+  width:100%;
+  background-color: rgb(7, 7, 12);
+  display:flex;
+  height:50px;
+}
+.first{
+  display:flex;
+  height:100%;
+  width:40%;
+  justify-content: space-around;
+  font-size: 18px;
+}
+.hero{
+  width:100%;
+  height: 500px;
+}
+.hero img {
+    width: 100%; 
+    height:100%;
+}
+#content1{
+  text-align: center;
+  background-color: rgba(12, 8, 8, 0.6);
+  color:white;
+}
+.content{
+  background-color: rgb(216, 218, 221);
+  display:flex;
+  width:100%;
+  height:450px;
+  text-align: center;
+  justify-content: space-around;
+}
+.con1{
+  height:420px;
+  margin:20px;
+  width:350px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+}
+.con1 button{
+  background-color: white;
+}
+.con1 button:hover{
+  color:blue
+}
+.div1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:300;
+  height: 320px;
+}
+.div1 img {
+    width: 100%; /* Fit the image width to the container */
+    height: 100%; /* Fit the image height to the container */
+}
+
+.div2{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:200;
+  height: 320px;
+}
+.div2 img {
+    width: 100%; /* Fit the image width to the container */
+    height: 100%; /* Fit the image height to the container */
+    padding-left:10px;
+    padding-right:10px;
+}
+.con1:hover{
+  width:450px;
+  height:400px;  
+}
+.div3{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:200;
+  height: 320px;
+}
+.div3 img {
+    width: 100%; /* Fit the image width to the container */
+    height: 100%; /* Fit the image height to the container */
+}
+.div4{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:200;
+  height: 320px;
+}
+.div4 img {
+    width: 100%; /* Fit the image width to the container */
+    height: 100%; /* Fit the image height to the container */
+}
+.container{
+    margin-left:100px;
+    margin-right:100px;
+}
+.footer1{
+  width:100%;
+  height:50px;
+  background-color: rgba(19, 16, 16,0.8);
+}
+.footer1 a{
+  font-size:20px;
+  color:white;
+    text-decoration: none;
+}
+.footer2{
+  width:100%;
+  height:300px;
+  background-color: black;
+  display:flex;
+  padding-top:20px;
+  justify-content: space-around;
+}
+.footer2 a{
+  text-decoration: none;
+  color:white;
+}
+.footdiv1 p{
+     margin:8px;
+}
+.footer3{
+  width:100%;
+  height:60px;
+  background-color: rgb(180, 51, 51);
+  display:flex;
+  justify-content:center;
+}
+.footer41{
+  display:flex;
+  justify-content:center;
+  padding:10px;
+}
+.footer41 a{
+  padding-right:20px;
+}
+@media screen and (max-width:1220px){
+  .hero{
+    height:300px;
+  }
+}
+@media screen and (min-width:1520){
+}
+@media  screen and (max-width:1520px){
+  .container{
+    margin-left:0px;
+    margin-right:0px;
+}
+  .hero img{
+    width:100%;
+  }
+  body{
+    width:1520px;
+  }
+}
