@@ -1,1 +1,1 @@
-#this is amazon online shopping website clone
+this is amazon online shopping website clone
